@@ -1,0 +1,18 @@
+#include <stdio.h>
+// 별 찍는 함수
+void print_star()
+{    
+  // 별 찍기
+  printf("*\n");
+  printf("***\n");
+  printf("*****\n");
+  printf("***\n");
+  printf("*\n");
+}
+int main()
+{
+  //  별 찍는 함수 호출  
+  print_star();
+  
+    return 0;
+}
